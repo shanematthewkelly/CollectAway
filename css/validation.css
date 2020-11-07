@@ -1,0 +1,172 @@
+/* Theme Styling */
+
+body {
+  background-color: #242424;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  width: 100%;
+  margin: auto;
+}
+
+a,
+a:hover,
+a:focus {
+  color: white;
+  transition: all 0.3s;
+}
+
+/* Sidebar Styling */
+
+.wrapper {
+  display: flex;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#sidebar {
+  min-width: 260px;
+  max-width: 260px;
+  background-color: #404040;
+  color: #fff;
+  transition: all 0.3s;
+  height: 100vh;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+#sidebar .active {
+  margin-left: 0;
+}
+
+#sidebar .sidebar-heading {
+  padding: 20px;
+  background: #404040;
+  text-align: center;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+}
+
+#sidebar ul p {
+  color: white;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+}
+
+#sidebar ul li a:hover {
+  color: black;
+  background: #fff;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+  background: #24a0ed;
+  color: white !important;
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  transform: translateY(-50%);
+}
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #404040;
+}
+
+#content {
+  width: 100%;
+  padding: 15px;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+.lottie-sidebar {
+  margin: auto;
+}
+
+.fa-eye {
+  color: #24a0ed !important;
+}
+
+.card-text,
+.card-title {
+  color: white;
+}
+
+.card-body,
+.card {
+  background-color: #404040 !important;
+}
+
+.content-title {
+  margin-bottom: 50px;
+  padding-left: 15px;
+}
+
+/* Handle Media Sizes For Sidebar */
+
+@media (max-width: 5000px) {
+  #sidebar {
+    margin-left: -260px;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+}
+
+/* Validation Page Styling */
+
+.form-center {
+  background-color: #404040;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  margin-top: 40px;
+  padding: 25px;
+}
+
+.form-title {
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.form-control {
+  margin-top: 25px;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.form-validation-heading {
+  background-color: #404040;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 25px;
+}
