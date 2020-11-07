@@ -1,4 +1,3 @@
-# BSc (Hons) in Creative Computing - Year 4
-## Advanced JavaScript - CA#1
+# Advanced JavaScript Module Assessment
 
-This repository contains the starter code for this assignment.
+This restaurant web application implements Bootsrap 5, jQuery validation, AJAX, components and basic HTML, CSS & JS functionalities.
